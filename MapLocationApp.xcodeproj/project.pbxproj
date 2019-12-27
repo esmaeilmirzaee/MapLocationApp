@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		829FF21823B490F0006CCB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829FF21723B490F0006CCB8B /* AppDelegate.swift */; };
-		829FF21A23B490F0006CCB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829FF21923B490F0006CCB8B /* ViewController.swift */; };
 		829FF21C23B490F9006CCB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829FF21B23B490F9006CCB8B /* Assets.xcassets */; };
 		829FF21F23B490F9006CCB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829FF21D23B490F9006CCB8B /* Main.storyboard */; };
+		829FF22B23B4BA1B006CCB8B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829FF22A23B4BA1B006CCB8B /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		829FF21423B490F0006CCB8B /* MapLocationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLocationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		829FF21723B490F0006CCB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		829FF21923B490F0006CCB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		829FF21B23B490F9006CCB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		829FF21E23B490F9006CCB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		829FF22023B490F9006CCB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		829FF22123B490F9006CCB8B /* MapLocationApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapLocationApp.entitlements; sourceTree = "<group>"; };
+		829FF22A23B4BA1B006CCB8B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 		829FF22823B492DA006CCB8B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				829FF21923B490F0006CCB8B /* ViewController.swift */,
 				829FF21723B490F0006CCB8B /* AppDelegate.swift */,
+				829FF22A23B4BA1B006CCB8B /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,8 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829FF21A23B490F0006CCB8B /* ViewController.swift in Sources */,
 				829FF21823B490F0006CCB8B /* AppDelegate.swift in Sources */,
+				829FF22B23B4BA1B006CCB8B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +293,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MapLocationApp/MapLocationApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "MapLocationApp/Supporting Files/MapLocationApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MapLocationApp/Info.plist;
+				INFOPLIST_FILE = "MapLocationApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -311,10 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MapLocationApp/MapLocationApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "MapLocationApp/Supporting Files/MapLocationApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = MapLocationApp/Info.plist;
+				INFOPLIST_FILE = "MapLocationApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
